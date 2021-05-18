@@ -10,8 +10,8 @@ private:
 	char* memberSince;
 
 public:
-	member(char*,int);
-	member(char*, int, int, char*, char*) 
+	member();
+	member(char*, int, int, char*, char*);
 	~member();
 	void setPricePerMonth(int);
 	int getPricePerMonth();

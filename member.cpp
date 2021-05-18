@@ -1,17 +1,17 @@
 #include<iostream>
 #include "member.h"
+#include<time.h>
 
 using namespace std;
 
-member::member(char* memberSince) :Person(char* name, int ID, int age);
+member::member()
 {
-
 	pricePerMonth = 260;
 	memberType = "Standard";
-	this->memberSince = memberSince;
+	memberSince=
 }
 
-member::member(char* name = "", int ID = 100000000, int age = 16, int pricePerMonth, char* memberType, char* memberSince)
+member::member(char* name, int ID, int age, int pricePerMonth, char* memberType, char* memberSince)
 {
 
 	this->pricePerMonth = pricePerMonth;
